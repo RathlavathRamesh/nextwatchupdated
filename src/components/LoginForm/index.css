@@ -1,0 +1,62 @@
+.login-form-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #181818;
+}
+.error-message {
+  color: red;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1vh;
+}
+.username-input-filed {
+  background-color: #0f0f0f;
+  border: solid 1px grey;
+  width: 22vw;
+  height: 6vh;
+  margin-top: 3px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 5px;
+}
+.webLogo {
+  height: 9vh;
+  margin-top: 4vh;
+  margin-bottom: 3vh;
+}
+.form-container {
+  color: #ffffff;
+  height: 65vh;
+  width: 33vw;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0f0f0f;
+}
+.login-button {
+  margin-top: 1vh;
+  background-color: blue;
+  width: 24vw;
+  height: 5vh;
+  border-width: 0px;
+  color: #ffffff;
+  margin-top: 2vh;
+  border-radius: 10px;
+}
+.check {
+  align-self: flex-start;
+  margin-left: 9vh;
+  margin-top: 2vh;
+}
+.input-label {
+  margin-top: 3vh;
+  font-weight: bold;
+}
